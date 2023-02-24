@@ -53,7 +53,7 @@ public class FortuneTellerFrame extends JFrame
         imageIcon = new ImageIcon("FortuneTellerPic.jpg");
 
         Image image = imageIcon.getImage();
-        Image newIMG = image.getScaledInstance(150,100, Image.SCALE_SMOOTH);
+        Image newIMG = image.getScaledInstance(150,150, Image.SCALE_SMOOTH);
         imageIcon = new ImageIcon((newIMG));
 
         imageLable = new JLabel(imageIcon);
